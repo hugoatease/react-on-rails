@@ -58,4 +58,3 @@ ONBUILD RUN bundle install
 ONBUILD COPY . /usr/src/app
 
 ONBUILD RUN yarn install
-ONBUILD RUN RAILS_ENV=production bundle exec rake assets:precompile
